@@ -43,6 +43,7 @@ function clickbepageritem(event) {
         if (list[key] != undefined){
             var x = document.createElement("video");
             x.setAttribute("controls", "controls");
+            x.setAttribute("poster", "/videoimg/"+list[key].split('.')[0]+".jpg")
             x.setAttribute("src", "/video/"+list[key]);
             document.getElementById("showvideo").appendChild(x);
         }

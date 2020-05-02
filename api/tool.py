@@ -1,9 +1,12 @@
 import os
 import cv2
 
+
 def createThumbnail():
     videodirpath = '/Volumes/zxingspace/video'
     saveimgpath = '/Volumes/zxingspace/img'
+    if not os.path.exists(videodirpath): os.mkdir(videodirpath)
+    if not os.path.exists(saveimgpath): os.mkdir(saveimgpath)
     videolist = os.listdir(videodirpath)
     imglist = os.listdir(saveimgpath)
     for i in videolist:
@@ -13,7 +16,6 @@ def createThumbnail():
             success, image = vidcap.read()
             imag = cv2.imwrite(os.path.join(saveimgpath, '{}.jpg'.format(i.split('.')[0])), image)
             if imag: print("ok")
-
 
 
 if __name__ == '__main__':

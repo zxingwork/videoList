@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e515cf23-ae8a-4f09-b929-518dc41b1822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bak.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +78,16 @@
       <option name="presentableId" value="Default" />
       <updated>1588262556451</updated>
       <workItem from="1588262557625" duration="10429000" />
-      <workItem from="1588407459797" duration="14271000" />
+      <workItem from="1588407459797" duration="15017000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1588429139356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588429139356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,8 +95,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1588429139164">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588429139164" />
     <state x="593" y="354" key="Github.ShareDialog" timestamp="1588424075852">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -170,5 +179,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1588428642917" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588429148108">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588429148108" />
   </component>
 </project>
