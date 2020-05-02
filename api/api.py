@@ -30,5 +30,6 @@ def get_file_list(file_path):
         # print(dir_list)
         return dir_list
 
+
 if __name__ == '__main__':
     server.run(host='0.0.0.0',port='9527',debug=True)

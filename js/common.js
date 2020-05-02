@@ -48,3 +48,7 @@ function clickbepageritem(event) {
         }
     }
 }
+
+function fullrightdiv() {
+
+}
