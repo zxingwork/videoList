@@ -6,7 +6,7 @@ function videolist() {
     $.get("http://"+ip_addr+":9527/videolist", function (result) {
 
         totalCount = Object.keys(result).length;
-        document.getElementById("total").innerText = totalCount;
+        // document.getElementById("total").innerText = totalCount;
         resultDict = result;
         pageitemNum = Math.round(totalCount/numPerPage);
         console.log(pageitemNum)
@@ -51,5 +51,11 @@ function clickbepageritem(event) {
 }
 
 function fullrightdiv() {
+    var list = videolist()
+    for (key in list){
+        var x = document.createElement("img")
+        x.setAttribute("src", "/video/"+list[key].split('.')[0]+'.jpg')
 
+        document.getElementById("right-div").appendChild(x)
+    }
 }
