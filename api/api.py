@@ -3,8 +3,6 @@ import json
 import os, csv, time
 import random
 import struct
-import modbus_tk.defines as md
-import modbus_tk.modbus_tcp as mt
 from flask_cors import *
 server = flask.Flask(__name__)
 CORS(server,supports_credentials=True)
