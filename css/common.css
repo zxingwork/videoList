@@ -1,9 +1,9 @@
-video{
-    width: 20%;
-    /*height: 300px;*/
-    border-radius: 15px;
-    padding: 5px;
-}
+/*video{*/
+/*    width: 20%;*/
+/*    !*height: 300px;*!*/
+/*    border-radius: 15px;*/
+/*    padding: 5px;*/
+/*}*/
 .be-page-item {
     display: inline-block;
     line-height: 38px;
@@ -23,4 +23,28 @@ video{
 }
 div.right-div{
     overflow: auto;
+}
+
+.right-div-img{
+    /*height: 70px;*/
+    width: 114px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.left-div{
+    float: left;
+    /*position: fixed;*/
+    padding: 2px;
+}
+.mainvideo-play-div{
+    align-items: center;
+}
+.mainvideo-play{
+    position: fixed;
+    width: 1000px;
+    height: 600px;
+    background: #000;
+}
+.a-video{
+    href: #top;
 }

@@ -64,23 +64,23 @@ function fullrightdiv() {
         for (var i=1;i<=totalCount;i++){
             var x = document.createElement("img");
             var y = document.createElement("a")
-            var z = document.createElement("div")
+            // var z = document.createElement("div")
             x.setAttribute("class", "right-div-img")
             x.setAttribute("src", "/videoimg/"+result[i].split('.')[0]+".jpg")
-            y.setAttribute("href","#top")
-            y.setAttribute("onclick", "mainVideoPlay(event)")
-            y.setAttribute("class", "a-video")
+            // y.setAttribute("href","#top")
+            // y.setAttribute("onclick", "mainVideoPlay(event)")
+            // y.setAttribute("class", "a-video")
 
             // y.setAttribute("href", "#top")
-            x.setAttribute("alt",result[i].split('.')[0])
+            // x.setAttribute("alt",result[i].split('.')[0])
             // y.addEventListener(onclick, mainVideoPlay(event))
             // x.setAttribute("width", "114px")
             // x.setAttribute("height","70px")
             // x.setAttribute("padding", "5px")
             // x.setAttribute("border-radius", "15px")
-
-            document.getElementById("right-div").appendChild(z);
-            z.appendChild(y)
+            y.setAttribute("href", "/video/"+result[i])
+            document.getElementById("right-div").appendChild(y);
+            // z.appendChild(y)
             y.appendChild(x);
         }
         //////////
